@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+	<div ng-app="">
+		<label>Escreva o nome de uma cor para mudar a cor do campo abaixo (em inglês): </label>
+		<input type="text" name="cor" ng-model="myCol">
+		<div style="background-color:{{myCol}}; width: 100px; height: 100px; border:1px solid black" ng-model="myCol"><p>Sobre</p></div>
+	</div>	
+</body>
+</html>
